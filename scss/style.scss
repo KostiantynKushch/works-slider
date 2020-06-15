@@ -131,8 +131,9 @@ body {
       height: 96px;
     }
     &:focus,
-    &:active {
-      background-color: #e98457;
+    &:active,
+    &:hover {
+      background-color: rgba($color: #1bf1ad, $alpha: 0.7);
     }
   }
 
